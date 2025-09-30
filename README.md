@@ -35,27 +35,6 @@ cd welcome-to-edmonton
 npm install
 npm run dev    # or yarn dev
 
-
-Open your browser to http://localhost:3000 (or the port your dev server uses).
-
-Building for Production
-npm run build
-
-
-Deploy the build (or dist) folder to Netlify or your hosting platform.
-
-Project Structure (Example)
-/
-├── public/            # static assets (images, icons)
-├── src/
-│   ├── components/    # reusable UI parts
-│   ├── pages/         # pages or views
-│   ├── styles/        # CSS / SCSS
-│   └── index.js / main.js
-├── .gitignore
-├── package.json
-└── README.md
-
 Deployment on Netlify
 
 License
