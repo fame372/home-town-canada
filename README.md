@@ -14,23 +14,6 @@ HTML5
 
 CSS3
 
-Create React App
-
-📦 Installation
-
-To run the project locally:
-
-git clone https://github.com/your-username/my-home-town-edmonton.git
-cd my-home-town-edmonton
-npm install
-
-🚀 Start the App
-npm start
-
-
-The app will be available at:
-http://localhost:3000
-
 📁 Project Structure
 my-home-town-edmonton/
 ├── public/
@@ -43,19 +26,12 @@ my-home-town-edmonton/
 ├── package.json
 └── README.md
 
-📸 Screenshots
-
-Add a few images here showing the UI (optional)
 
 🤝 Contributing
 
 Contributions are welcome!
 Feel free to fork the project, open issues, or submit pull requests.
 
-📄 License
-
-Licensed under the MIT License
-.
 
 👤 Author
 
