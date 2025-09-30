@@ -22,21 +22,6 @@ framework - React
 
 Hosted via Netlify
 
-Setup & Usage
-Prerequisites
-
-Node.js
-
-npm or yarn
-
-Installation & Running Locally
-git clone https://github.com/yourusername/welcome-to-edmonton.git
-cd welcome-to-edmonton
-npm install
-npm run dev    # or yarn dev
-
-Deployment on Netlify
-
 License
 
 This project is licensed under the MIT License — see the LICENSE file for details.
