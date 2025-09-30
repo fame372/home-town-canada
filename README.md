@@ -1,162 +1,65 @@
-Table of Contents
+Welcome to Edmonton 🌆
 
-Motivation
+Live Demo: https://welcome-to-edmonton.netlify.app/
 
-Features
-
-Demo / Screenshots
-
-Tech Stack
-
-Getting Started
-
-Prerequisites
-
-Installation
-
-Running Locally
-
-Building / Deployment
-
-Project Structure
-
-Contributing
-
-License
-
-Acknowledgments
-
-Motivation
-
-Edmonton is a vibrant city with a lot to offer — from festivals to parks, arts, and local stories. This project is meant to:
-
-Provide an attractive and informative web presence for Edmonton
-
-Serve as a portfolio project to showcase front-end skills
-
-Be easily extensible so new content or features (e.g., events, mapping) can be added
+A web site that showcases the city of Edmonton — its attractions, culture, history, and things to do.
 
 Features
 
-Responsive design to support desktop and mobile
+Responsive design (desktop + mobile)
 
-City highlights: attractions, galleries, history
+Sections for “Places to Visit”, “Things to Do”, “History”, etc.
 
-Dynamic sections (e.g. “Things to do”, “Places”)
+Clean layout and navigation
 
-Clean UI / UX, animations or transitions (if applicable)
-
-Easy to maintain & expand
-
-Demo / Screenshots
-
-(You can insert images or a GIF here to show what the site looks like.)
+Easy to extend with more content
 
 Tech Stack
 
-Here’s a likely stack (adjust as per your actual implementation):
+HTML / CSS / JavaScript
 
-Frontend: HTML5, CSS (or SCSS / Tailwind / styled-components), JavaScript (or TypeScript)
+framework - React 
 
-Framework / Library: React / Vue / Svelte / plain JS (whatever your project uses)
+Hosted via Netlify
 
-Build Tool / Bundler: Vite, Webpack, Rollup, etc.
-
-Hosting / Deployment: Netlify
-
-Optional: APIs, content backend, CMS, image optimization
-
-Getting Started
+Setup & Usage
 Prerequisites
 
-Make sure you have installed:
-
-Node.js (v14+, v16+, or as required)
+Node.js
 
 npm or yarn
 
-Installation
-
-Clone the repo:
-
+Installation & Running Locally
 git clone https://github.com/yourusername/welcome-to-edmonton.git
 cd welcome-to-edmonton
-
-
-Install dependencies:
-
 npm install
-# or
-yarn install
-
-Running Locally
-
-To run in development mode with hot reloading:
-
-npm run dev
-# or
-yarn dev
+npm run dev    # or yarn dev
 
 
-Then open your browser to http://localhost:3000 (or the port your dev server uses).
+Open your browser to http://localhost:3000 (or the port your dev server uses).
 
-Building / Deployment
-
-To build for production:
-
+Building for Production
 npm run build
-# or
-yarn build
 
 
-The output folder (e.g. dist or build) can be deployed to Netlify or any static host.
+Deploy the build (or dist) folder to Netlify or your hosting platform.
 
-If using Netlify, you may need to configure settings like the publish directory and redirects (for SPAs).
-
-Project Structure
-
-Here’s an example of how your project folders/files might be organized:
-
-.
-├── public/
-│   └── assets/        # images, icons, static files
+Project Structure (Example)
+/
+├── public/            # static assets (images, icons)
 ├── src/
 │   ├── components/    # reusable UI parts
-│   ├── pages/         # page-level components or views
-│   ├── styles/        # CSS, SCSS, or style files
-│   ├── utils/         # helper functions
-│   └── main.js / index.js
+│   ├── pages/         # pages or views
+│   ├── styles/        # CSS / SCSS
+│   └── index.js / main.js
 ├── .gitignore
 ├── package.json
-├── README.md
-└── netlify.toml (if using Netlify config)
+└── README.md
 
-
-You can adjust structure based on your framework or preferences.
-
-Contributing
-
-Thank you for considering contributing! Here’s how to help:
-
-Fork the repository
-
-Create a new branch (git checkout -b feature/my-feature)
-
-Make your changes & ensure you follow existing code style
-
-Test your changes
-
-Submit a Pull Request
-
-Please include a description of your changes and any relevant screenshots or steps to verify.
+Deployment on Netlify
 
 License
 
-Specify the license you prefer. For example:
+This project is licensed under the MIT License — see the LICENSE file for details.
 
-MIT License
-
-© 2025 Your Name
-
-
-You can also add a LICENSE file with full license text.
+Fadumo Ahmed - @fame372
